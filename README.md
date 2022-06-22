@@ -1,6 +1,6 @@
 # digital-clock
 
-The objetive was to learn about strokeDasharray and strokeDashoffset CSS properties;
+The objetive was to learn more about strokeDasharray and strokeDashoffset CSS properties;
 
 - Pure Javascript;
 - Responsive for PC and Mobile users;
