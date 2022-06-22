@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #4C3A51;
+}
+
+.container {
+  background-color: #180027;
+
+  padding: 20px;
+  border-radius: 20px;
+
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.377);
+}
+
+#time {
+  display: flex;
+  gap: 40px;
+  color: #fff;
+
+  font-size: 2rem;
+}
+
+#time .circle { 
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+#time .circle svg {
+  width: 180px;
+  height: 180px;
+
+  position: relative;
+
+  transform: rotate(270deg);
+}
+
+#time .circle svg circle {
+  width: 100%;
+  height: 100%;
+
+  fill: transparent;
+  stroke: #381c2f;
+  stroke-width: 5px;
+  transform: translate(20px, 20px);
+}
+
+#time .circle svg circle:nth-child(2) {
+  stroke: #A91079;
+
+  stroke-dasharray: 440;
+}
+
+#time div {
+  position: absolute;
+  text-align: center;
+}
+
+#ampm {
+  color: #fff;
+  font-size: 2rem;
+
+  margin-bottom: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  position: absolute;
+  bottom: 10px;
+}
