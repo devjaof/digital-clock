@@ -23,8 +23,8 @@ body {
   padding: 20px;
   border-radius: 20px;
 
-  height: 350px;
-  width: 80vw;
+  height: 40vh;
+  width: 85vw;
   max-width: 800px;
 
   display: flex;
@@ -104,18 +104,24 @@ a {
   .container {
     flex-direction: column;
     height: 85vh;
+    min-height: 500px;
+    min-width: 300px;
   }
 
   #time {
-    gap: 1px;
+    gap: 5px;
     flex-direction: column;
   }
 
   #time .circle { 
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   
     position: relative;
+  }
+
+  #time .circle svg circle {
+    transform: translate(10px, 10px);
   }
 
   #ampm {
