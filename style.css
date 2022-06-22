@@ -103,7 +103,6 @@ a {
 @media screen and (max-width: 425px) {
   .container {
     flex-direction: column;
-
     height: 85vh;
   }
 
@@ -120,7 +119,11 @@ a {
   }
 
   #ampm {
-  
     margin-bottom: 10px;
+  }
+
+  a {
+    position: relative;
+    bottom: 0;
   }
 }
